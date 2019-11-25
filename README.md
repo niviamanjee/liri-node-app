@@ -25,7 +25,8 @@ This app is an interactive system using Node.js. Users can retrieve information 
 Liri bot filters search requests by the user throught the use of four topic names: concert-this, movie-this, spotify-this-song, and do-what-it-says.
 
 ### concert-this 
-[!Concert Search Demo](demo/liri-bot-concert-this.gif)]
+
+[![Concert Search Demo]({demo/liri-bot-concert-this.gif})]
 
 ### movie-this
 
