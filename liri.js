@@ -207,9 +207,9 @@ var movie = function () {
 var read = function () {
     fs.readFile("./random.txt", "utf-8", (err, data) => {
         if (err) throw err;
-        console.log(data);
+        // console.log(data);
         var dataArray = data.split(",")
-        console.log(dataArray)
+        // console.log(dataArray)
         topic = dataArray[0];
         term = dataArray[1];
         song();
