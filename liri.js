@@ -52,8 +52,8 @@ var concert = function () {
         // "datetime": "2019-11-22T19:00:00"
         // newArray[0, 1] 0= 2019-11-22, 1= the rest 
 
-        var logged = [`Name of the Venue:  ${response.data[0].venue.name}`, `Venue Location:  ${response.data[0].venue.city}, ${response.data[0].venue.region}, ${response.data[0].venue.country}`,
-        `Date of the Event:  ${moment(date).format("MM-DD-YYYY")}`]
+        var logged = [`Name of the Venue:  ${response.data[0].venue.name}`, `\nVenue Location:  ${response.data[0].venue.city}, ${response.data[0].venue.region}, ${response.data[0].venue.country}`,
+        `\nDate of the Event:  ${moment(date).format("MM-DD-YYYY")}`]
 
         var info = "node liri-js \n" + topic + " \n" + term + " \n" + logged
         fs.appendFile("log.txt", info, "utf-8", function (err) {
@@ -121,10 +121,10 @@ var song = function () {
             console.log(`Album Name: ${response.tracks.items[0].album.name}`)
             console.log(`Preview Link: ${response.tracks.items[0].external_urls.spotify}`)
 
-            var logged = [`Artist(s): ${artist}`, `Song Name: ${response.tracks.items[0].name}`,
-            `Album Name: ${response.tracks.items[0].album.name}`, `Preview Link: ${response.tracks.items[0].external_urls.spotify}`]
+            var logged = [`Artist(s): ${artist}`, `\nSong Name: ${response.tracks.items[0].name}`,
+            `\nAlbum Name: ${response.tracks.items[0].album.name}`, `\nPreview Link: ${response.tracks.items[0].external_urls.spotify}`]
 
-            var info = "node liri-js" + topic + " " + term + " " + logged
+            var info = "node liri-js \n" + topic + " \n" + term + " \n" + logged
             fs.appendFile("log.txt", info, "utf-8", function (err) {
                 if (err) throw err;
                 // if no error
@@ -165,11 +165,11 @@ var movie = function () {
             console.log(`Movie Plot: ${response.data.Plot}`);
             console.log(`Movie Actors: ${response.data.Actors}`);
 
-            var logged = [`Movie Title:  ${response.data.Title}`, `Release Year:  ${response.data.Year}`, `IMDB Rating: ${response.data.imdbRating}`,
-            `Rotten Tomatoes Rating: ${response.data.Ratings[1].Value}`, `Country of Production: ${response.data.Country}`, `Movie Langauge: ${response.data.Language}`,
-            `Movie Plot: ${response.data.Plot}`, `Movie Actors: ${response.data.Actors}`]
+            var logged = [`Movie Title:  ${response.data.Title}`, `\nRelease Year:  ${response.data.Year}`, `\nIMDB Rating: ${response.data.imdbRating}`,
+            `\nRotten Tomatoes Rating: ${response.data.Ratings[1].Value}`, `\nCountry of Production: ${response.data.Country}`, `\nMovie Langauge: ${response.data.Language}`,
+            `\nMovie Plot: ${response.data.Plot}`, `\nMovie Actors: ${response.data.Actors}`]
 
-            var info = "node liri-js" + topic + " " + term + " " + logged
+            var info = "node liri-js \n" + topic + " \n" + term + " \n" + logged
             fs.appendFile("log.txt", info, "utf-8", function (err) {
                 if (err) throw err;
                 // if no error
