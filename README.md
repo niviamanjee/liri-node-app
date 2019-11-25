@@ -26,7 +26,7 @@ Liri bot filters search requests by the user throught the use of four topic name
 
 ### concert-this 
 
-![Concert Search Demo]({demo/liri-bot-concert-this.gif})
+![Concert Search Demo](demo/liri-bot-concert-this.gif)
 
 ### movie-this
 
