@@ -1,0 +1,22 @@
+node liri-jsconcert-this sting Name of the Venue:  Beacon Theatre,Venue Location:  New York, NY, United States,Date of the Event:  12-09-2019node liri-jsspotify-this-song come through and chill Artist(s): Miguel,J. Cole,Salaam Remi,Song Name: Come Through and Chill (feat. J. Cole & Salaam Remi),Album Name: War & Leisure,Preview Link: https://open.spotify.com/track/1m8WpLYXEiNVZchsWEcCSynode liri-jsspotify-this-song sandstorm Artist(s): Darude,Song Name: Sandstorm - Radio Edit,Album Name: Before The Storm,Preview Link: https://open.spotify.com/track/24CXuh2WNpgeSYUOvz14jknode liri-jsspotify-this-song "I Want it That Way" Artist(s): Backstreet Boys,Song Name: I Want It That Way,Album Name: The Hits--Chapter One,Preview Link: https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6node liri-jsconcert-this ariana grande Name of the Venue:  Amalie Arena,Venue Location:  Tampa, FL, United States,Date of the Event:  11-24-2019node liri-js 
+concert-this 
+ariana grande 
+Name of the Venue:  Amalie Arena,Venue Location:  Tampa, FL, United States,Date of the Event:  11-24-2019node liri-js 
+concert-this 
+ariana grande 
+Name of the Venue:  Amalie Arena,Venue Location:  Tampa, FL, United States,Date of the Event:  11-24-2019node liri-js 
+concert-this 
+ariana grande 
+Name of the Venue:  Amalie Arena,Venue Location:  Tampa, FL, United States,Date of the Event:  11-24-2019node liri-js 
+concert-this 
+ariana grande 
+Name of the Venue:  Amalie Arena,Venue Location:  Tampa, FL, United States,Date of the Event:  11-24-2019node liri-js 
+concert-this 
+khalid 
+Name of the Venue:  Brisbane Entertainment Centre,Venue Location:  Boondall, , Australia,Date of the Event:  11-26-2019node liri-js 
+concert-this 
+ariana grande 
+Name of the Venue:  Amway Center,Venue Location:  Orlando, FL, United States,Date of the Event:  11-25-2019node liri-js 
+concert-this 
+khalid 
+Name of the Venue:  Brisbane Entertainment Centre,Venue Location:  Boondall, , Australia,Date of the Event:  11-26-2019
