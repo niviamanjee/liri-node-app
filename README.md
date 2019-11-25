@@ -33,4 +33,3 @@ Liri bot filters search requests by the user throught the use of four topic name
 ### spotify-this-song
 
 ### do-what-it-says
-
